@@ -14,7 +14,8 @@ const numeroDeParImpar = () => {
     number *= -1;
   }
 
-  for (number; number > 0; number--) {
+  //considerando 0 como número par
+  for (number; number >= 0; number--) {
     if (number % 2 === 0) {
       pares++;
     } else {
@@ -28,3 +29,4 @@ const numeroDeParImpar = () => {
 };
 
 numeroDeParImpar();
+11;
